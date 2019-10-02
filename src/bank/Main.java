@@ -14,9 +14,12 @@ public class Main {
         bank.getCustomers().add(customer);
         System.out.println(bank.getCustomers());
 
+        System.out.println("fasfasfs");
         Personnel personnel = new Personnel("95192591","Frida","Svensson",25000);
         bank.getPersonnel().add(personnel);
         System.out.println(bank.getPersonnel());
+        System.out.println("Fazli");
+        System.out.println("Zekqii");
 
     }
 }
