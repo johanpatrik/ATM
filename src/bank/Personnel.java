@@ -6,7 +6,12 @@ public class Personnel extends Person{
 
     public Personnel(String personNumber, String firstName, String lastName, int salary) {
         super(personNumber, firstName, lastName);
-        this.salary = salary;
+        setSalary(salary);
+    }
+    public Personnel(Person person,int salary){
+        super(person.getPersonNumber(),person.getFirstName(),person.getLastName());
+        setSalary(salary);
+
     }
 
     public int getSalary() {
@@ -14,7 +19,10 @@ public class Personnel extends Person{
     }
 
     public void setSalary(int salary) {
-        this.salary = salary;
+       if(salary<0)
+           throw new IllegalArgumentException("Felaktig data");
+       else
+           this.salary = salary;
     }
 
     @Override

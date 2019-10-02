@@ -16,6 +16,7 @@ public class Main {
 
 
         Personnel personnel = new Personnel("95192591","Frida","Svensson",25000);
+
         bank.getPersonnel().add(personnel);
         System.out.println(bank.getPersonnel());
         System.out.println("Johan Özbek");
