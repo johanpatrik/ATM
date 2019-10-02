@@ -19,6 +19,8 @@ public class Main {
         bank.getPersonnel().add(personnel);
         System.out.println(bank.getPersonnel());
         System.out.println("Johan Özbek");
+        System.out.println("Johannes va här");
+
 
     }
 }
