@@ -13,7 +13,7 @@ public class Main {
         Customer customer = new Customer("951921923","Kalle","Larsson",accounts,loans);
         bank.getCustomers().add(customer);
         System.out.println(bank.getCustomers());
-
+        
         Personnel personnel = new Personnel("95192591","Frida","Svensson",25000);
 
         bank.getPersonnel().add(personnel);
