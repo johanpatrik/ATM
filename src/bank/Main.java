@@ -20,5 +20,6 @@ public class Main {
         System.out.println("Fazli");
         System.out.println("Zekqii");
 
+        System.out.println("fasfasfs");
     }
 }
