@@ -29,5 +29,4 @@ public class Personnel extends Person{
     public String toString() {
         return super.toString() + "salary=" + salary;
     }
-
 }
