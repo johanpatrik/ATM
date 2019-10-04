@@ -18,7 +18,7 @@ public class Personnel extends Person{
         return salary;
     }
 
-    public void setSalary(int salary) {
+     public void setSalary(int salary) {
        if(salary<0)
            throw new IllegalArgumentException("Felaktig data");
        else
