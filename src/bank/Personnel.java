@@ -8,6 +8,7 @@ public class Personnel extends Person{
         super(personNumber, firstName, lastName);
         setSalary(salary);
     }
+
     public Personnel(Person person,int salary){
         super(person.getPersonNumber(),person.getFirstName(),person.getLastName());
         setSalary(salary);

@@ -1,12 +1,13 @@
 package bank;
 
-public class  Rate {
+public class Rate {
+
     private double rate;
     private Personnel personnel;
 
     public Rate(double rate, Personnel personnel) {
-        this.rate = rate;
-        this.personnel = personnel;
+        setRate(rate);
+        setPersonnel(personnel);
     }
 
     public double getRate() {
@@ -14,10 +15,11 @@ public class  Rate {
     }
 
     public void setRate(double rate) {
-        if(rate<0)
+        if (rate < 0) {
             throw new IllegalArgumentException("Felaktig data");
-        else
+        } else {
             this.rate = rate;
+        }
     }
 
     public Personnel getPersonnel() {
@@ -25,9 +27,10 @@ public class  Rate {
     }
 
     public void setPersonnel(Personnel personnel) {
-        if(personnel==null)
+        if (personnel == null) {
             throw new NullPointerException();
-        else
-            this.personnel=personnel;
+        } else {
+            this.personnel = personnel;
+        }
     }
 }
