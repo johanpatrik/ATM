@@ -6,7 +6,7 @@ import java.util.List;
 public class Costumer extends Person {
 
     private List<Account> accounts = new ArrayList<>();
-//    private List<Loan> loans = new ArrayList<>();
+    private List<Loan> loans = new ArrayList<>();
 
     public Costumer(String personNumber, String firstName, String lastName, Account account,
         Loan loan) {
